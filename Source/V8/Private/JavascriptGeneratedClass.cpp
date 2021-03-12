@@ -15,20 +15,20 @@ void UJavascriptGeneratedClass::PostInitInstance(UObject* InObj)
 {
 	Super::PostInitInstance(InObj);
 
-	auto Context = JavascriptContext.Pin();
-	if (Context.IsValid())
-	{
-		Context->CallProxyFunction(this, InObj, TEXT("ctor"), nullptr);
-	}
+	// auto Context = JavascriptContext.Pin();
+	// if (Context.IsValid())
+	// {
+	// 	Context->CallProxyFunction(this, InObj, TEXT("ctor"), nullptr);
+	// }
 }
 
 void UJavascriptGeneratedClass_Native::PostInitInstance(UObject* InObj)
 {
 	Super::PostInitInstance(InObj);
 
-	auto Context = JavascriptContext.Pin();
-	if (Context.IsValid())
-	{
-		Context->CallProxyFunction(this, InObj, TEXT("ctor"), nullptr);
-	}
+	// auto Context = JavascriptContext.Pin();
+	// if (Context.IsValid())
+	// {
+	// 	Context->CallProxyFunction(this, InObj, TEXT("ctor"), nullptr);
+	// }
 }
